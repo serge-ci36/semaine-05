@@ -63,6 +63,7 @@ footer p{
     vertical-align:middle;
     box-sizing:border-box;
     color:black ;
+	padding:0 ;
 }
 
 footer a{
@@ -74,7 +75,8 @@ iframe{
 	display:inline-block;
     vertical-align:top;
     box-sizing:border-box;
-    padding:10px;
+    margin:10px;
+	border:solid 10px rgb(5,135,185);
 }
 
 .color0 {
