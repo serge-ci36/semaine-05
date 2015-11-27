@@ -3,7 +3,10 @@
     <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+        <link rel="stylesheet" type="text/css" href="Styles.css" />     
+		<link rel="stylesheet" type="text/css" href="Fonts.css" />
+
+		
 		<title>Mon CV en HTML/CSS version semaine 05</title>
 		<!--[if lt IE 9]>
             <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -11,66 +14,44 @@
     </head>
     <body>
         <header class="color0">
-        <!-- 1er div conteneur   -->
-            <div class="conteneur">
+		
                 <div class="description" class="color0">
-                    <h2>Serge PINAUD</h2>
+                    <h2><B>Serge PINAUD</b></h2>
                     <h1>Codeur HTML / CSS</h1>
                 </div>
+				
                 <div class="image">
-                    <img src="images/ph_id_300-w2.png"  width="97%" height="97%">
+                    <img src="images/ph_id_300-w2.png"  >
                 </div>
-            </div>
+			
          </header>
+		 
         <main class="color1">
-	    <!-- 1er div  colonne   -->
+		
             <div class="colonne" class="color1">
-                <div class="conteneur" >
-                    <h3>En formation "codeur informatique" avec Simplonline</h3>
-                    <p>Niveau BTS informatique de gestion</p>
-                    <p>Bac Pro Bureautique</p> 
-                    <p>BEP Agent des services administratifs et informatiques</p>
-                    <p>CAP Employé de bureau</p>
-		            
-		        </div>
-            </div>
+				<h3>En formation "codeur informatique" avec Simplonline</h3>
+				<p>Niveau BTS informatique de gestion</p>
+				<p>Bac Pro Bureautique</p> 
+				<p>BEP Agent des services administratifs et informatiques</p>
+				<p>CAP Employé de bureau</p>
+		     </div>
             
-        <!-- 2ème div  conteneur   -->    
-        <div class="colonne" class="color1">
-            <div class="conteneur">
-                <h3>Mom projet</h3>
-                <p>Acquérir un maximum de connaissances afin de pouvoir conseiller les entreprises dans leurs démarches WEB.</p>
-            </div>
-        </div>
-        
-		<!-- 3ème div  conteneur   
-        <div class="colonne" class="color1">
-            <div class="conteneur">
-                <ul><h3>Mes compétences </h3>
-                    <li>HTML/CSS</li>
-                    <li>Animateur d'équipe</li>
-                    <li>Maitrise de Word, Exel, Powerpoint</li>
-                </ul>
-            </div> 
-        </div> -->
-        
-        <div class="colonne" class="color1">
-            <div class="conteneur">
-                <h3>Mes compétences </h3>
-                <p>HTML/CSS</p>
-                <p>Animateur d'équipe</p>
-                <p>Maitrise de Word, Exel, Powerpoint</p>
-            </div> 
-        </div> 
+			<div class="colonne" class="color1">
+				<h3>Mom projet</h3>
+				<p>Acquérir un maximum de connaissances afin de pouvoir conseiller les entreprises dans leurs démarches WEB.</p>
+			 </div>
+			
+			<div class="colonne" class="color1">
+				<h3>Mes compétences </h3>
+				<p>HTML/CSS</p>
+				<p>Animateur d'équipe</p>
+				<p>Maitrise de Word, Exel, Powerpoint</p>
+			</div> 
         
         </main>
         
-        
-    <!-- footer google map   -->
-    <footer>
-        <table border="0" width="100%">
-            <tr>
-                <td width="60%">
+		<footer>
+                <div class="maps">
                     <iframe 
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d574.1062286194177!2d1.7142493063501145!3d46.805786270677714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fba75a42088f09%3A0xf2eaa6088cc06168!2s10+Rue+Jacques+Lacour%2C+36000+Ch%C3%A2teauroux%2C+France!5e0!3m2!1sfr!2sfr!4v1448391549756" 
 					width="800" 
@@ -78,23 +59,19 @@
 					frameborder="0" 
 					allowfullscreen >
 					</iframe>
-                    
-				
-                </td>
+                </div>
                 
-                <td align="center">
-                    <p>Mes coordonnées : 06-50-11-33-68</p>
-                    <a href="mailto:serge.pinaud.36.sp@gmail.com"> <img src="images/bt_mail.png" height="50" width="50"></a>
-					<a href="https://github.com/serge-ci36"> <img src="images/bt_github.png" height="50" width="50"></a>
-                    <a href="https://www.facebook.com/serge.pinaud.5"> <img src="images/bt_facebook.png" height="50" width="50"></a>
-                    <a href="https://twitter.com/?lang=fr"> <img src="images/bt_twitter.png" height="50" width="50"></a>
-                </td>
-            </tr>
-        </table>
-        
-        
-        
+                <div class="coordonnées">
+                    <h3>Mes coordonnées : 06-50-11-33-68</h3>
+					<div class="bouton">				
+						<a href="mailto:serge.pinaud.36.sp@gmail.com"> <img src="images/bt_mail.png" height="50" width="50"></a>
+						<a href="https://github.com/serge-ci36"> <img src="images/bt_github.png" height="50" width="50"></a>
+						<a href="https://www.facebook.com/serge.pinaud.5"> <img src="images/bt_facebook.png" height="50" width="50"></a>
+						<a href="https://twitter.com/?lang=fr"> <img src="images/bt_twitter.png" height="50" width="50"></a>
+						<a href="http://htmlpreview.github.io/?https://github.com/serge-ci36/semaine-05/blob/master/INDEXCV.html"></A>
+					</div>
+                </div>
 
-
+		</footer>
     </body>
 </html>

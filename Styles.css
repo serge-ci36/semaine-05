@@ -1,0 +1,128 @@
+
+/**** Redimensionnement des fontes *********************************************/
+h1 {    font-size: 60px; }
+
+h2 {    font-size: 50px; }
+
+h3 {    font-size: 30px ; line-height: 110%; }
+
+p {    	font-size: 20px ; line-height: 150%; }
+
+body{	
+    font-family:'caviar_dreamsregular' ;
+    background-color:rgb(5,245,235);
+    padding:0;
+    margin:0; 
+	width:100%;
+	box-sizing:border-box;
+}
+
+/* div { border:1px solid red ;} */
+
+header {
+	
+	top:0px;
+    background-image:url(images/banner-904887_1280.jpg); 
+    background-size: 100%;
+    width:100%;
+	height:200px;
+}
+
+main{
+    width:100%;
+    margin:auto;
+}
+
+ul li{
+    list-style-type:none;
+    color:rgb(5,135,185);
+}
+
+footer div {
+	
+    display:inline-block;
+	vertical-align:top;
+}
+
+footer{
+	
+    background-image:url(images/banner-904884_1280.jpg);
+    position:absolute;
+    bottom:0;
+	width:100%;
+	height:210px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+	box-sizing:border-box;
+}
+
+footer p, footer a, footer h1, footer h2, footer h3 {
+    text-align:center;
+    vertical-align:middle;
+    color:black ;
+	padding:0 ;
+}
+iframe { border:solid 10px rgb(5,135,185);
+}
+
+.description{
+    width:53%;
+	height:95% ;
+    display:inline-block;
+    text-align:center;
+	line-height: 130%;
+	vertical-align : top;
+}
+
+.image{
+	width:45%;
+    display:inline-block;
+	vertical-align : top;
+}
+
+.colonne{
+	
+	width:33%;
+	position: relative;
+    box-sizing:border-box;
+    display:inline-block;
+    vertical-align:top;
+    padding-left:20px;
+    padding-right:20px;
+    line-height:20px;
+}
+
+.color0 {
+    color:rgb(5,245,235);
+}
+
+.color1 {
+    color:rgb(5,135,185);
+}
+.maps {
+	width:52% ;
+    margin:10px;
+}
+.coordonnées { 
+	width:45% ;
+	height:90% ;
+	margin-top:10px;
+}
+
+.bouton {
+	
+	border:2px solid rgb(5,245,235);
+	background:rgb(5,135,185) ;
+	width:250px;
+	height:65px ;
+	display:inline-block;
+	margin-right:auto;
+	margin-left:200px;
+	margin-top:-20px;
+	margin-bottom:auto;
+	padding-top:20px ;
+	padding-left:25px ;
+	overflow:hidden;
+	border-radius: 15px;
+	
+}
